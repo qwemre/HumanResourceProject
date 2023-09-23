@@ -16,6 +16,7 @@ This project introduces a Human Resources Management System developed using the 
 <strong>Companies and Administrators:</strong> Company administrators can oversee company operations. Tasks such as personnel management, permissions, advances, and adding jobs are carried out here.
 
 <strong>Personnel Operations:</strong> Employees can perform operations such as leave requests, advance requests, and expense tracking. They can also keep track of their transaction history.
+
 <strong>Location and Weather Information:</strong> Real-time location information is obtained using RapidAPI with user permission. Weather information is provided based on the acquired location data.
 
 <strong>Exchange Rate Information:</strong> The project uses APIs to fetch the dollar exchange rate.
@@ -23,6 +24,9 @@ This project introduces a Human Resources Management System developed using the 
 ## Technologies Used
 
 <strong>Backend:</strong> ASP.NET Core 6 with C# was used.
+
 <strong>Database:</strong> A cloud database hosted on Azure was used.
+
 <strong>ORM (Object-Relational Mapping) Tool:</strong> Entity Framework Core was used.
+
 <strong>Frontend:</strong> HTML, CSS, and Bootstrap were used for the user interface.
