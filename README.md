@@ -1,5 +1,11 @@
 # HumanResourceProject
-
+<div align="center">
+<h4>Website working video</h4>
+<a href="[https://youtu.be/90h5cqSFVzo](https://www.linkedin.com/feed/update/urn:li:activity:7109588824552292353/)" target="_blank">
+ <img src="/GitImages/youtube.png" alt="Watch the video" width="600" height="350"/>
+ <img src="GitImages/youtube.png" alt="Watch the video" width="600" height="350"/>
+</a>
+</div>
 This project introduces a Human Resources Management System developed using the Model-View-Controller (MVC) architecture and incorporating ASP.NET Core 6, Identity, and Entity Framework Core technologies. This system is designed to facilitate and optimize the management of human resources in businesses.
 ## Features
 
