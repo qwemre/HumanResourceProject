@@ -7,7 +7,6 @@
 </div>
 This project introduces a Human Resources Management System developed using the Model-View-Controller (MVC) architecture and incorporating ASP.NET Core 6, Identity, and Entity Framework Core technologies. This system is designed to facilitate and optimize the management of human resources in businesses.
 ## Features
-
 - User Management: Users can register and log in. The system uses ASP.NET Identity for authentication and authorization processes.
 
 - Admin Panel: Administrators can log in with special privileges. The admin panel is used for managing companies and company administrators. Operations such as adding new companies, editing existing data, and tracking processes can be performed here.
