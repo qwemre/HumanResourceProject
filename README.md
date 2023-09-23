@@ -1,10 +1,9 @@
 # HumanResourceProject
 <div align="center">
 <h4>Website working video</h4>
-<a <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7109587584648908801?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Gömülü gönderi"></iframe>>
- <img src="GitImages/BegnyHomePage.PNG" alt="Watch the video" width="600" height="350"/>
+<a href="[https://youtu.be/90h5cqSFVzo](https://www.linkedin.com/posts/emre-karaomeroglu_sizlerle-daha-%C3%B6ncesinde-geli%C5%9Ftirmeye-devam-activity-7109588824552292353-tHg7?utm_source=share&utm_medium=member_desktop)" target="_blank">
+ <img src="GitImages/begnyHomePage.png" alt="Watch the video" width="600" height="350"/>
 </a>
-
 </div>
 This project introduces a Human Resources Management System developed using the Model-View-Controller (MVC) architecture and incorporating ASP.NET Core 6, Identity, and Entity Framework Core technologies. This system is designed to facilitate and optimize the management of human resources in businesses.
 ## Features
