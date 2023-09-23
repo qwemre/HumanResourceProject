@@ -1,25 +1,22 @@
 # HumanResourceProject
 
-Bu proje, MVC (Model-View-Controller) mimarisi kullanılarak geliştirilen ve ASP.NET Core 6, Identity ve Entity Framework Core teknolojilerini içeren bir İnsan Kaynakları Yönetim Sistemi'ni tanıtır. Bu sistem, işletmelerin insan kaynakları yönetimini kolaylaştırmak ve optimize etmek amacıyla tasarlanmıştır.
+This project introduces a Human Resources Management System developed using the Model-View-Controller (MVC) architecture and incorporating ASP.NET Core 6, Identity, and Entity Framework Core technologies. This system is designed to facilitate and optimize the management of human resources in businesses.
+## Features
 
-## Özellikler
+- *User Management: Users can register and log in. The system uses ASP.NET Identity for authentication and authorization processes.
 
-- *Kullanıcı Yönetimi:* Kullanıcılar kayıt olabilir ve giriş yapabilirler. Sistem, yetkilendirme ve kimlik doğrulama işlemleri için ASP.NET Identity kullanır.
+- *Admin Panel: Administrators can log in with special privileges. The admin panel is used for managing companies and company administrators. Operations such as adding new companies, editing existing data, and tracking processes can be performed here.
 
-- *Admin Paneli:* Yöneticiler, sistemde özel yetkilere sahip olarak oturum açabilirler. Admin paneli, şirketlerin ve şirket yöneticilerinin yönetimi için kullanılır. Yeni şirketler eklemek, mevcut verileri düzenlemek ve işlemleri takip etmek gibi işlemler burada yapılabilir.
+- *Companies and Administrators: Company administrators can oversee company operations. Tasks such as personnel management, permissions, advances, and adding jobs are carried out here.
 
-- *Şirketler ve Yöneticiler:* Şirket yöneticileri, şirketlerin işlemlerini takip edebilirler. Personel yönetimi, izinler, avanslar ve iş ekleme gibi işlemler burada gerçekleştirilir.
+- *Personnel Operations: Employees can perform operations such as leave requests, advance requests, and expense tracking. They can also keep track of their transaction history.
+- *Location and Weather Information: Real-time location information is obtained using RapidAPI with user permission. Weather information is provided based on the acquired location data.
 
-- *Personel İşlemleri:* Personeller, izin talepleri, avans talepleri ve harcamalar gibi işlemleri yapabilirler. İşlem geçmişlerini takip edebilirler.
+- *Exchange Rate Information: The project uses APIs to fetch the dollar exchange rate.
 
-- *Konum ve Hava Durumu Bilgisi:* RapidAPI kullanarak anlık konum bilgisi alınır ve kullanıcıdan izin alınır. Alınan konum bilgisine göre hava durumu bilgisi sunulur.
+## Technologies Used
 
-- *Döviz Kuru Bilgisi:* Proje, dolar kuru bilgisini çekmek için API'ler kullanır.
-
-## Kullanılan Teknolojiler
-
-- *Backend:* C# ile ASP.NET Core 6 kullanıldı.
-- *Veritabanı:* Azure üzerinde bulunan bir bulut veritabanı kullanıldı.
-- *ORM (Object-Relational Mapping) Aracı:* Entity Framework Core kullanıldı.
-- *Frontend:* HTML, CSS, Bootstrap ve JavaScript kullanıldı.
-- *Mimari:* Onion Mimarisi
+- *Backend: ASP.NET Core 6 with C# was used.
+- *Database: A cloud database hosted on Azure was used.
+- *ORM (Object-Relational Mapping) Tool: Entity Framework Core was used.
+- *Frontend: HTML, CSS, and Bootstrap were used for the user interface.
